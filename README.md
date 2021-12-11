@@ -57,7 +57,7 @@ I have scraped the following features from the website:
 - 
 # Features Engineering:
 
-- Inorder to enhance the model performance i Featured Engineered the following features from several columns:
+Inorder to enhance the model performance i Featured Engineered the following features from several columns:
 
 - Panorama_roof
 - Traction_Control
