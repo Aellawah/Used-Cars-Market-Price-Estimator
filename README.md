@@ -90,6 +90,13 @@ I have scraped the following features from the website:
 I have created a function that groups cars that are similar in Model,Submodel name,Model year,Motor capacity and checks for any price outliers among them and if an outlier exist it will replace it with the median of these cars, as slong as the car didn't have an accident or any similar event.
 
 # EDA analysis:
-I have conducted a Univariate,Bivariate,Multivariate analysis,
+I have conducted
+1. Univariate analysis
+2. Bivariate analysis
+3. Multivariate analysis
+4. 
+Insights Examples:
 Below is a distribution if the Model years in the market
 # ![](Years.png)
+This is a representation of the -ve correlation between Kilometers crossed and the car prices
+# ![](Kilometers vs car prices.png.png)
