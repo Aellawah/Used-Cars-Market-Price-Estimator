@@ -54,7 +54,7 @@ I have scraped the following features from the website:
 - Ammended columns data types         
 - Fixed null values
 - Dropped unnecessary columns
-- 
+
 # Features Engineering:
 
 Inorder to enhance the model performance i Featured Engineered the following features from several columns:
