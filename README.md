@@ -101,7 +101,8 @@ Below is a distribution if the Model years in the market
 # ![](Years.png)
 This is a representation of the -ve correlation between Kilometers crossed and the car prices
 # ![](Kilometers_vs_car_prices.png)
-
+The distribution of car models in the market
+# ![](Cars_models.png)
 
 # Model Building:
 
