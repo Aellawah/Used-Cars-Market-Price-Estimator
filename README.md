@@ -92,4 +92,4 @@ I have created a function that groups cars that are similar in Model,Submodel na
 # EDA analysis:
 I have conducted a Univariate,Bivariate,Multivariate analysis,
 Below is a distribution if the Model years in the market
-# ![](Years.PNG)
+# ![](Years.png)
