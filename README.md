@@ -25,24 +25,25 @@ realtive to it's features according to the market
 5. Applying Machine Learning Model
 
 # Data Scraping:
+
 I have scraped the following features from the website:
 
-Mobile_number
-Model_name
-SubModel_name
-Car_condition
-Kilometers_crossed
-Car_price
-Seller_City
-Model_year
-body_type
-Transmission_type
-Motor_capacity
-Car_color
-waranty_condition
-Car_paint
-Ad_post_date
-Interior_Features
-Exterior_Features
-Multimedia_Features
-Safety_Features
+- Mobile_number
+- Model_name
+- SubModel_name
+- Car_condition
+- Kilometers_crossed
+- Car_price
+- Seller_City
+- Model_year
+- Body_type
+- Transmission_type
+- Motor_capacity
+- Car_color
+- Waranty_condition
+- Car_paint
+- Ad_post_date
+- Interior_Features
+- Exterior_Features
+- Multimedia_Features
+- Safety_Features
