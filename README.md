@@ -1,6 +1,6 @@
 # Used-Cars-Market prices prediction: Project overview
 
-# ![](Data files - images/Best_one.jpg)
+# ![](/Data files - images/Best_one.jpg)
 
 - Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much is a car
 realtive to it's features according to the market
