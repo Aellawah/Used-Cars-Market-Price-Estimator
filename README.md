@@ -25,7 +25,7 @@ realtive to it's features according to the market
 5. Applying Machine Learning Model
 
 # Data Scraping:
-I have scraped the following fetures from the website:
+I have scraped the following features from the website:
 
 Mobile_number
 Model_name
