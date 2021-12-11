@@ -1,18 +1,48 @@
-# Used-Cars-Market
+# Used-Cars-Market prices prediction: Project overview
 
 # ![](Global-Ucar-1-1.png)
 
-The Used cars market in the past few years has reached a big improvement in the number of Buyers, Sellers and Investors due to the Economic developments that the country has gone through and the nature of the market it self.
+- Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much is a car
+realtive to it's features according to the market
 
-This has raised alot of questions about the market and the concern to estimate the different types of used cars prices.
+- Scraped over than 12000 Ads from www.contactcars.com using python and selenium 
+- Cleaned and Analyzed data to gain insights about the market.
+- Engineerd features from the text of each Ad description & THe Additional features of the cars (Interior Features,Exterior Features,Multimedia Features,Safety Features) to gain more insights about each car
+- Applied several models(Linear regression,Decision tree,Random Forest) to reach the best model
 
-For that purpose i am conducting a Data Science project that would answer these questions and predict the cars prices in the 
-Egyptian market.
+# Code and Resources Used
 
-This project will go through Five main stages:
+**Python Version:** 3.7
+
+**Main Packages:** Pandas,Numpy,scikit-learn,Matplotlib,Seaborn,BeautifulSoup,Selenium
+
+# Project stages:
 
 1. Getting Used Cars data (Scraping data)
 2. Data Cleaning
 3. Features Engineering
 4. Data Anlaysis
 5. Applying Machine Learning Model
+
+# Data Scraping:
+I have scraped the following fetures from the website:
+
+Mobile_number
+Model_name
+SubModel_name
+Car_condition
+Kilometers_crossed
+Car_price
+Seller_City
+Model_year
+body_type
+Transmission_type
+Motor_capacity
+Car_color
+waranty_condition
+Car_paint
+Ad_post_date
+Interior_Features
+Exterior_Features
+Multimedia_Features
+Safety_Features
