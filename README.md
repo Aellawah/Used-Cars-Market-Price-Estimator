@@ -1,6 +1,6 @@
 # Used-Cars-Market
 
-# ![](Global-Ucar-1-1.png)
+# ![](a.jfif)
 
 The Used cars market in the past few years has reached a big improvement in the number of Buyers, Sellers and Investors due to the Economic developments that the country has gone through and the nature of the market it self.
 
