@@ -101,3 +101,10 @@ Below is a distribution if the Model years in the market
 # ![](Years.png)
 This is a representation of the -ve correlation between Kilometers crossed and the car prices
 # ![](Kilometers_vs_car_prices.png)
+
+
+# Model Building:
+
+* First i selected specific features to use in training the model, then i converted the categorical features into binary format (One Hot encoding for the nomial categorical variables & Label encoding for the ordinal categorical variables)
+* I used a DecisionTreeClassifier & Random Forest classifier which were very useful for this kind of data, both of them gave me a 99% accuracy 
+* I used the model on the (new customers dataset) provided by the company to precit what is the type of each new customer would be
