@@ -47,3 +47,49 @@ I have scraped the following features from the website:
 - Exterior_Features
 - Multimedia_Features
 - Safety_Features
+
+
+# Data Cleaning:
+
+- Ammended columns data types         
+- Fixed null values
+- Dropped unnecessary columns
+- 
+# Features Engineering:
+
+- Inorder to enhance the model performance i Featured Engineered the following features from several columns:
+
+- Panorama_roof
+- Traction_Control
+- Touch_screen
+- Side_Airbags
+- car_key	
+- Sun_Roof
+- Rear_view_camera
+- Cruise_Control
+- Rear_parking_sensors
+- Leather_Seats
+- Bluetooth
+- Air_Bags_Passenger
+- Anti_Lock_Braking_System_ABS
+- USB
+- Power_mirror
+- Aux
+- Air_Bags_For_Driver
+- Electronic_window
+- Analoge_Air_Condition
+- Car_paint_final
+- Area
+- Governorate
+- week_day
+- Month
+- Payment_option
+
+# Outliers Handling:
+- Removed main outliers from Kilometers and Car prices and rare car models
+I have created a function that groups cars that are similar in Model,Submodel name,Model year,Motor capacity and checks for any price outliers among them and if an outlier exist it will replace it with the median of these cars, as slong as the car didn't have an accident or any similar event.
+
+# EDA analysis:
+I have conducted a Univariate,Bivariate,Multivariate analysis,
+Below is a distribution if the Model years in the market
+# ![](Years.PNG)
