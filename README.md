@@ -1,6 +1,6 @@
 # Used-Cars-Market prices prediction: Project overview
 
-# ![](/Data files - images/Best_one.jpg)
+# ![](/Data_files/Best_one.jpg)
 
 - Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much is a car
 realtive to it's features according to the market
@@ -98,11 +98,11 @@ I have conducted
 Insights Examples:
 
 Below is a distribution if the Model years in the market
-# ![](Years.png)
+# ![](/Data_files/Years.png)
 This is a representation of the -ve correlation between Kilometers crossed and the car prices
-# ![](Kilometers_vs_car_prices.png)
+# ![](/Data_files/Kilometers_vs_car_prices.png)
 The distribution of car models in the market
-# ![](Cars_models.png)
+# ![](/Data_files/Cars_models.png)
 
 # Model Building:
 
