@@ -103,7 +103,6 @@ This is a representation of the -ve correlation between Kilometers crossed and t
 # ![](Kilometers_vs_car_prices.png)
 The distribution of car models in the market
 # ![](Cars_models.png)
-
 # Model Building:
 
 * First i selected specific features to use in training the model, then i converted the categorical features into binary format (One Hot encoding for the nomial categorical variables & Label encoding for the ordinal categorical variables)
