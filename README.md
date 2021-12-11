@@ -106,6 +106,7 @@ The distribution of car models in the market
 
 # Model Building:
 
-* First i selected specific features to use in training the model, then i converted the categorical features into binary format (One Hot encoding for the nomial categorical variables & Label encoding for the ordinal categorical variables)
-* I used a DecisionTreeClassifier & Random Forest classifier which were very useful for this kind of data, both of them gave me a 99% accuracy 
-* I used the model on the (new customers dataset) provided by the company to precit what is the type of each new customer would be
+- I selected specific features to use in training the model.
+- I converted the categorical features into binary format using Labdel encoder as it turned out to generate the best results.
+- I used a Logisitic Regression Model, Decision Tree Regressor Model & Random Forest Regressor Model
+- My best results was generated from Random Forest Regressor Model with (MAE - 14k)
