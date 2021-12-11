@@ -94,9 +94,10 @@ I have conducted
 1. Univariate analysis
 2. Bivariate analysis
 3. Multivariate analysis
-4. 
+
 Insights Examples:
+
 Below is a distribution if the Model years in the market
 # ![](Years.png)
 This is a representation of the -ve correlation between Kilometers crossed and the car prices
-# ![](Kilometers vs car prices.png.png)
+# ![](Kilometers vs car prices.png)
