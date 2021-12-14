@@ -1,14 +1,13 @@
-# Used-Cars-Market prices prediction: Project overview
+# Used Cars Market Price Estimator: Project overview
 
 # ![](/Data_files/100198028_2.jpg)
 
 
-- Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much is a car
-realtive to it's features according to the market
-
+- Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much does a car
+cost in the Egyptian market considering it's features
 - Scraped over than 12000 Ads from www.contactcars.com using python and selenium 
 - Cleaned and Analyzed data to gain insights about the market.
-- Engineerd features from the text of each Ad description & THe Additional features of the cars (Interior Features,Exterior Features,Multimedia Features,Safety Features) to gain more insights about each car
+- Engineerd features from the text of each Ad description & The Additional features of the cars (Interior Features,Exterior Features,Multimedia Features,Safety Features) to gain more insights about each car
 - Applied several models(Linear regression,Decision tree,Random Forest) to reach the best model
 
 # Code and Resources Used
@@ -27,7 +26,7 @@ realtive to it's features according to the market
 
 # Data Scraping:
 
-I have scraped the following features from the website:
+I have scraped the following features from www.contactcars.com website:
 
 - Mobile_number
 - Model_name
@@ -58,7 +57,7 @@ I have scraped the following features from the website:
 
 # Features Engineering:
 
-Inorder to enhance the model performance i Featured Engineered the following features from several columns:
+Inorder to enhance the model performance i Featured Engineered the following features from (Interior Features,Exterior Features,Multimedia Features,Safety Features) columns:
 
 - Panorama_roof
 - Traction_Control
@@ -79,12 +78,19 @@ Inorder to enhance the model performance i Featured Engineered the following fea
 - Air_Bags_For_Driver
 - Electronic_window
 - Analoge_Air_Condition
-- Car_paint_final
+
+Featured Engineered the following features from the Text of each car's description:
+- Car_paint_final(Extracted from the description and the ad options wether the car is still with it's factory paint or not)
+- Accident(Wether the car had an accident or not)
+- Payment_option(Cash or Installments)
+
+From the Seller's city & Ad post Date columns:
 - Area
 - Governorate
 - week_day
 - Month
 - Payment_option
+
 
 # Outliers Handling:
 - Removed main outliers from Kilometers and Car prices and rare car models
@@ -108,6 +114,6 @@ The distribution of car models in the market
 # Model Building:
 
 - I selected specific features to use in training the model.
-- I converted the categorical features into binary format using Labdel encoder as it turned out to generate the best results.
+- I converted the categorical features into binary format using Labdel encoder as it generated the best results.
 - I used a Logisitic Regression Model, Decision Tree Regressor Model & Random Forest Regressor Model
 - My best results was generated from Random Forest Regressor Model with (MAE - 14k)
