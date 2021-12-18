@@ -3,7 +3,7 @@
 # ![](/Data_files/100198028_2.jpg)
 
 
-- Created a model that predicts the cars prices in the market (MAE - 14k) to help Buyers,Sellers,Investors satisfy the concern of how much does a car
+- Created a model that predicts the cars prices in the market (MAE - 15K) to help Buyers,Sellers,Investors satisfy the concern of how much does a car
 cost in the Egyptian market considering it's features
 - Scraped over than 12000 Ads from www.contactcars.com using python and selenium 
 - Cleaned and Analyzed data to gain insights about the market.
