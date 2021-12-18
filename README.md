@@ -116,4 +116,4 @@ The distribution of car models in the market
 - I selected specific features to use in training the model.
 - I converted the categorical features into binary format using Labdel encoder as it generated the best results.
 - I used a Logisitic Regression Model, Decision Tree Regressor Model & Random Forest Regressor Model
-- My best results was generated from Random Forest Regressor Model with (MAE - 14k)
+- My best results was generated from Random Forest Regressor Model with (MAE - 15K)
